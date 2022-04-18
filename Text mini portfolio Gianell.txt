@@ -1,0 +1,98 @@
+========== HEADER PROFILE ==========
+.profile__name
+Kovács Bálint-Hunor
+
+.profile__profession
+Software Developer
+
+.profile__social
+https://www.instagram.com/wa_watashi_hiromitsu/
+https://www.linkedin.com/in/bálint-hunor-kovács-9185b3231/
+https://github.com/memergamer
+
+.profile__info-number | .profile__info-description
+6
+Years of <br> learning
+
++20
+Completed <br> projects
+
+5
+Satisfied <br> customers
+
+<!-- Insert your CV -->
+
+<!-- Insert a real number plus country code -->
+https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+
+<!-- Insert your brand name or profile -->
+https://m.me/bedimcode
+
+========== FILTERS TABS ==========
+.filters__button
+Projects
+
+Skills
+
+========== PROJECTS ==========	
+.projects__subtitle | .projects__title
+Web
+Payment Site
+
+Web
+Portfolio website
+
+Movil
+Fast food app
+
+Movil
+Travel app
+
+Design
+Music app design
+
+========== SKILLS ==========
+.skills__title
+Frontend Developer
+
+Backend Developer
+
+.skills__name | .skills__level
+HTML
+Basic
+
+CSS
+Intermediate
+
+JavaScript
+Intermediate
+
+React
+Intermediate
+
+Bootstrap
+Basic
+
+Git
+Intermediate
+
+*****************
+
+Java
+Intermediate
+
+Matlab
+Basic
+
+C/C++
+Intermediate
+
+Python
+Basic
+
+Node Js
+Intermediate
+
+========== FOOTER ==========
+.footer__copy
+&#169; Kovács Bálint-Hunor All rigths reserved
