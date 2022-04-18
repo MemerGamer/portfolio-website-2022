@@ -187,8 +187,63 @@ img {
   font: var(--normal-font-size);
   margin-bottom: .25rem;
 }
+
+.profile__info-description{
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+}
+
+.profile__buttons,
+.profile__buttons-small{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__buttons{
+  column-gap: 1rem;
+}
+
+.profile__buttons-small{
+  column-gap: .25rem;
+}
+
+
 /*=============== BUTTONS ===============*/
 
+.button{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1.15rem 1.5rem;
+  border-radius: .5rem;
+  transition: .3s;
+  box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
+}
+
+.button i{
+  font-size: 1.25rem;
+}
+
+.button:hover{
+  background-color: var(--first-color);
+}
+
+.button__small{
+  padding: .75rem;
+  box-shadow: none;
+}
+
+.button__gray{
+  background-color: var(--text-color-lighten);
+  color: var(--title-color);
+}
+
+.button__gray:hover{
+  background-color: var(--text-color-light);
+}
 
 /*=============== FILTERS TABS ===============*/
 
