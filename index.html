@@ -1,404 +1,379 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
-        
-        <!--=============== REMIX ICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">        
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.ico"
+      type="image/x-icon"
+    />
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="/assets/css/styles.css">
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-        <title>Kovács Bálint-Hunor</title>
-    </head>
-    <body>
-        <!--=============== HEADER PROFILE ===============-->
-        <header class="profile container">
-            <div class="profile__container grid">
-                <div class="profile__data">
-                    <div class="profile__border">
-                        <div class="profile__perfil">
-                            <img src="/assets/img/igazolványkép-removebg.png" alt="profile-pic">
-                        </div>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <title>Kovács Bálint-Hunor</title>
+  </head>
+  <body>
+    <!--=============== HEADER PROFILE ===============-->
+    <header class="profile container">
+      <div class="profile__container grid">
+        <div class="profile__data">
+          <div class="profile__border">
+            <div class="profile__perfil">
+              <img
+                src="/assets/img/igazolványkép-removebg.png"
+                alt="profile-pic"
+              />
+            </div>
+          </div>
+          <h2 class="profile__name">Kovács Bálint-Hunor</h2>
+          <h3 class="profile__profession">Software Developer</h3>
+
+          <ul class="profile__social">
+            <a
+              href="https://www.instagram.com/wa_watashi_hiromitsu/"
+              class="profile__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/bálint-hunor-kovács-9185b3231/"
+              class="profile__social-link"
+            >
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a
+              href="https://github.com/memergamer"
+              class="profile__social-link"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+
+        <div class="profile__info grid">
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">6</h3>
+            <p class="profile__info-description">
+              Years of <br />
+              coding
+            </p>
+          </div>
+
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">+30</h3>
+            <p class="profile__info-description">
+              Completed <br />
+              projects
+            </p>
+          </div>
+
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">5</h3>
+            <p class="profile__info-description">
+              Satisfied <br />
+              customers
+            </p>
+          </div>
+        </div>
+
+        <div class="profile__buttons">
+          <a
+            download=""
+            href="/assets/pdf/Kovács-Bálint-Hunor-CV-eng.pdf"
+            class="button"
+          >
+            Download CV <i class="ri-download-line"></i>
+          </a>
+
+          <div class="profile__buttons-small">
+            <a
+              href="https://api.whatsapp.com/send?phone=+40756132813&text=Hello"
+              class="button button__small button__gray"
+            >
+              <i class="ri-whatsapp-line"></i>
+            </a>
+
+            <a
+              href="https://www.messenger.com/t/100003527368895/"
+              class="button button__small button__gray"
+            >
+              <i class="ri-messenger-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <section class="filters container">
+        <!--=============== FILTERS TABS ===============-->
+        <ul class="filters__content">
+          <button
+            class="filters__button filter-tab-active"
+            data-target="#projects"
+          >
+            Projects
+          </button>
+          <button class="filters__button" data-target="#skills">Skills</button>
+        </ul>
+
+        <div class="filters__sections">
+          <!--=============== PROJECTS ===============-->
+          <div
+            class="projects__content grid filters__active"
+            data-content
+            id="projects"
+          >
+            <article class="projects__card">
+              <img
+                src="/assets/img/project1.jpg"
+                alt="project1"
+                class="projects__img"
+              />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">thermomassage.ro</h3>
+                  <a
+                    href="https://thermomassage.ro"
+                    class="projects__button button button__small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="/assets/img/project2.jpg"
+                alt="project2"
+                class="projects__img"
+              />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle"> Android - Unity</span>
+                  <h3 class="projects__title">
+                    KHApps(Google Play Store Account)
+                  </h3>
+                  <a
+                    href="https://play.google.com/store/apps/developer?id=KHApps"
+                    class="projects__button button button__small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="/assets/img/project3.jpg"
+                alt="project3"
+                class="projects__img"
+              />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Unity - WebGL</span>
+                  <h3 class="projects__title">ReményApp</h3>
+                  <a
+                    href="https://admiring-wiles-80db62.netlify.app"
+                    class="projects__button button button__small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="projects__card">
+              <img
+                src="/assets/img/project4.jpg"
+                alt="project4"
+                class="projects__img"
+              />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web - JavaScript</span>
+                  <h3 class="projects__title">Sapi 8 bit CPU</h3>
+                  <a
+                    href="https://sapi-cpu.netlify.app"
+                    class="projects__button button button__small"
+                    ><i class="ri-link"></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+            <article class="projects__card">
+              <img
+                src="/assets/img/project5.jpg"
+                alt="project5"
+                class="projects__img"
+              />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web - ReactJS</span>
+                  <h3 class="projects__title">Old Portfolio</h3>
+                  <a
+                    href="https://kovacsbalinthunor.netlify.app"
+                    class="projects__button button button__small"
+                    ><i class="ri-link"></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!--=============== SKILLS ===============-->
+          <div class="skills__content grid" data-content id="skills">
+            <div class="skills__area">
+              <h3 class="skills__title">Frontend Developer</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">HTML</h3>
+                      <span class="skills__level">Basic</span>
                     </div>
-                    <h2 class="profile__name">Kovács Bálint-Hunor</h2>
-                    <h3 class="profile__profession">Software Developer</h3>
+                  </div>
 
-                    <ul class="profile__social">
-                        <a href="https://www.instagram.com/wa_watashi_hiromitsu/" class="profile__social-link">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/bálint-hunor-kovács-9185b3231/" class="profile__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                        <a href="https://github.com/memergamer" class="profile__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                    </ul>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">CSS</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">JavaScript</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="profile__info grid">
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">
-                            6
-                        </h3>
-                        <p class="profile__info-description">
-                            Years of <br> coding
-                        </p>
-                    </div>
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
 
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">
-                            +30
-                        </h3>
-                        <p class="profile__info-description">
-                            Completed <br> projects
-                        </p>
+                    <div>
+                      <h3 class="skills__name">ReactJS</h3>
+                      <span class="skills__level">Intermediate</span>
                     </div>
+                  </div>
 
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">
-                            5
-                        </h3>
-                        <p class="profile__info-description"> 
-                            Satisfied <br> customers
-                        </p>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Bootstrap</h3>
+                      <span class="skills__level">Basic</span>
                     </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Git</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
                 </div>
-
-            <div class="profile__buttons">
-                <a download="" href="/assets/pdf/Kovács-Bálint-Hunor-CV-eng.pdf" class="button">
-                    Download CV <i class="ri-download-line"></i>
-                </a>
-
-                <div class="profile__buttons-small">
-                    <a href="https://api.whatsapp.com/send?phone=+40756132813&text=Hello" class="button button__small button__gray">
-                        <i class="ri-whatsapp-line"></i>
-                    </a>
-                    
-                    <a href="https://www.messenger.com/t/100003527368895/" class="button button__small button__gray">
-                        <i class="ri-messenger-line"></i>
-                    </a>
-                </div>
-
+              </div>
             </div>
 
-            </div>
-        </header>
+            <div class="skills__area">
+              <h3 class="skills__title">Backend Developer</h3>
 
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <section class="filters container">
-                <!--=============== FILTERS TABS ===============-->
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
 
-                <ul class="filters__content">
-                    <button class="filters__button" data-target="#projects">
-                        Projects
-                    </button>
-                    <button class="filters__button" data-target="skills">
-                        Skills
-                    </button>
-                </ul>
-
-                <div class="filters__sections">
-                    <!--=============== PROJECTS ===============-->
-                    <div class = "projects__content grid" data-content id = "projects">
-                        <article class = "projects__card">
-                            <img src = "/assets/img/project1.jpg" alt="project1" class="projects__img"> 
-                            
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">
-                                        Web
-                                    </span>
-                                    <h3 class = "projects__title">
-                                        thermomassage.ro
-                                    </h3>
-                                    <a href="https://thermomassage.ro" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class = "projects__card">
-                            <img src = "/assets/img/project2.jpg" alt="project2" class="projects__img"> 
-                            
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">
-                                        Android - Unity 
-                                    </span>
-                                    <h3 class = "projects__title">
-                                        KHApps(Google Play Store Account)
-                                    </h3>
-                                    <a href="https://play.google.com/store/apps/developer?id=KHApps" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class = "projects__card">
-                            <img src = "/assets/img/project3.jpg" alt="project3" class="projects__img"> 
-                            
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">
-                                        Unity - WebGL
-                                    </span>
-                                    <h3 class = "projects__title">
-                                        ReményApp
-                                    </h3>
-                                    <a href="https://admiring-wiles-80db62.netlify.app" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class = "projects__card">
-                            <img src = "/assets/img/project4.jpg" alt="project4" class="projects__img"> 
-                            
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">
-                                        Web - JavaScript
-                                    </span>
-                                    <h3 class = "projects__title">
-                                        Sapi 8 bit CPU
-                                    </h3>
-                                    <a href="https://sapi-cpu.netlify.app" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class = "projects__card">
-                            <img src = "/assets/img/project5.jpg" alt="project5" class="projects__img"> 
-                            
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">
-                                        Web - ReactJS
-                                    </span>
-                                    <h3 class = "projects__title">
-                                        Old Portfolio
-                                    </h3>
-                                    <a href="https://kovacsbalinthunor.netlify.app" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        
+                    <div>
+                      <h3 class="skills__name">NodeJS</h3>
+                      <span class="skills__level">Intermediate</span>
                     </div>
+                  </div>
 
-                    <!--=============== SKILLS ===============-->
-                    <div class="skills__content grid" data-content id="skills">
-                        <div class="skills__area">
-                            <h3 class="skills title">
-                                Frontend Developer
-                            </h3>
-                            <div class="skills__box">
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
 
-                                        <div>
-                                            <h3 class="skills__name">
-                                                HTML
-                                            </h3>
-                                            <span class="skills__level">
-                                                Basic
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">
-                                                CSS
-                                            </h3>
-                                            <span class="skills__level">
-                                                Intermediate
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class="ri-checkbox-circle-line"></i>
-
-                                    <div>
-                                        <h3 class="skills__name">
-                                            JavaScript
-                                        </h3>
-                                        <span class="skills__level">
-                                            Intermediate
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">
-                                                React
-                                            </h3>
-                                            <span class="skills__level">
-                                                Intermediate
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">
-                                                Bootstrap
-                                            </h3>
-                                            <span class="skills__level">
-                                                Basic
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">
-                                                Git
-                                            </h3>
-                                            <span class="skills__level">
-                                                Intermediate
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skills__area">
-                            <h3 class="skills title">
-                                Backend Developer
-                            </h3>
-                            <div class="skills__box">
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">
-                                                NodeJS
-                                            </h3>
-                                            <span class="skills__level">
-                                                Intermediate
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">
-                                                Python
-                                            </h3>
-                                            <span class="skills__level">
-                                                Basic
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class="ri-checkbox-circle-line"></i>
-
-                                    <div>
-                                        <h3 class="skills__name">
-                                            C/C++
-                                        </h3>
-                                        <span class="skills__level">
-                                            Intermediate
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">
-                                                Java
-                                            </h3>
-                                            <span class="skills__level">
-                                                Intermediate
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">
-                                                Matlab
-                                            </h3>
-                                            <span class="skills__level">
-                                                Basic
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-
-                                        <div>
-                                            <h3 class="skills__name">
-                                                MySQL
-                                            </h3>
-                                            <span class="skills__level">
-                                                Basic
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
+                    <div>
+                      <h3 class="skills__name">MySQL</h3>
+                      <span class="skills__level">Basic</span>
                     </div>
+                  </div>
 
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
 
+                    <div>
+                      <h3 class="skills__name">Python</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
                 </div>
-            </section>
-        </main>
 
-        <!--=============== FOOTER ===============-->
-        <footer class="footer container">
-            
-        </footer>
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+                    <div>
+                      <h3 class="skills__name">C/C++</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="/assets/js/main.js"></script>
-    </body>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Java</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Matlab</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container"></footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>
