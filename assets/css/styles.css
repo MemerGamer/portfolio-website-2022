@@ -169,7 +169,9 @@ body.dark-theme {
 }
 
 .profile__perfil img {
-  width: 75px;
+  width: 80px;
+  position: relative;
+  top: 10px;
 }
 
 .profile__border {
@@ -512,7 +514,9 @@ body.dark-theme {
     height: 120px;
   }
   .profile__perfil img {
-    width: 90px;
+    width: 100px;
+    position: relative;
+    top: 10px;
   }
   .profile__profession {
     margin-bottom: 1.5rem;
